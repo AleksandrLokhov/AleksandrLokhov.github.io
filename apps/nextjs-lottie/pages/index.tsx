@@ -33,7 +33,7 @@ export function Index() {
           </div>
           <div className={styles.appWrapper}>
             <div className={styles.wrapperRow}>
-              <LottiePlayer src={'/ovk_bookmark.json'} />
+              <LottiePlayer src={'/ovk_bookmark.json'} size={64} />
               <LottiePlayer src={'/ovk_bookmark.json'} size={88} />
               <LottiePlayer src={'/ovk_bookmark.json'} size={176} />
               <LottiePlayer src={'/ovk_bookmark.json'} size={264} />
