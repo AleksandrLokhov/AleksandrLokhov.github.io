@@ -1,0 +1,19 @@
+{
+  "name": "nextjs-lottie",
+  "version": "0.0.1",
+  "dependencies": {
+    "@dotlottie/react-player": "1.6.0",
+    "@lottiefiles/react-lottie-player": "3.5.3",
+    "@nx/next": "16.9.1",
+    "lottie-web": "5.12.2",
+    "next": "13.4.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "typescript": "5.1.6"
+  },
+  "scripts": {
+    "start": "next start",
+    "deploy": "next build && next export && touch out/.nojekyll && gh-pages -d out"
+  },
+  "homepage": "https://aleksandrlokhov.github.io/"
+}
